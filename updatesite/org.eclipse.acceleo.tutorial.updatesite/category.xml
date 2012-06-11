@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.acceleo.tutorial.feature_3.3.0.qualifier.jar" id="org.eclipse.acceleo.tutorial.feature" version="3.3.0.qualifier">
+      <category name="org.eclipse.acceleo"/>
+   </feature>
+   <category-def name="org.eclipse.acceleo" label="Acceleo"/>
+</site>
