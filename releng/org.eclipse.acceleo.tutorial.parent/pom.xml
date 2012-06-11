@@ -42,6 +42,7 @@
     <tycho-version>0.14.1</tycho-version>
     <platform-version-name>indigo</platform-version-name>
     <eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
+    <acceleo-site>http://download.eclipse.org/modeling/m2t/acceleo/updates/releases/3.2</acceleo-site>
     <orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/</orbit-site>
   </properties>
 
@@ -57,6 +58,11 @@
       <id>indigo</id>
       <layout>p2</layout>
       <url>${eclipse-site}</url>
+    </repository>
+    <repository>
+      <id>acceleo</id>
+      <layout>p2</layout>
+      <url>${acceleo-site}</url>
     </repository>
     <repository>
       <id>orbit</id>
