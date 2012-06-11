@@ -8,12 +8,13 @@
    <item title="Install EEF">
       <description>
          You can download EEF from the Eclipse update site of your Eclipse version, for example http://download.eclipse.org/indigo for Eclipse 3.7 Indigo.
-         EEF can be found in the modeling category along with over EMF-based tools.
+         EEF can be found in the modeling category along with over EMF-based tools.<br .>
+         To learn more about EEF installation process, have a look at the EEF wiki: http://wiki.eclipse.org/EEF/Installation_Guide
       </description>
    </item>
    <item title="Generate the EEF models">
       <description>
-         Right click on your genmodel and select "EEF" -> "Initialize EEF models". Now open the MASNIFEST.MF go to the dependencies tab and add there
+         Right click on your genmodel and select "EEF" -> "Initialize EEF models". Now open the MANIFEST.MF go to the dependencies tab and add there
          a dependency to org.eclipse.emf.eef.runtime
       </description>
    </item>

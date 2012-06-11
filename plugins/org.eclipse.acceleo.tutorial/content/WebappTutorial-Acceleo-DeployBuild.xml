@@ -19,7 +19,7 @@
          the "Model file name filter" by "*.webapp" since our EMF tooling will create "*.webapp" files. and change the content of "Target folder access"
          to "IContainer target = model.getProject();". Then click on "Finish".<br />
          <br />
-         If the generated Java code contains an error, open the class GenerateAll and remove everything after:<br .>
+         If the generated Java code contains an error, open the class GenerateAll and remove everything after:<br />
          EObject model = gen0.getModel();<br />
 		 if (model != null) {<br />
          <br />
