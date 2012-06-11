@@ -43,6 +43,7 @@
     <platform-version-name>indigo</platform-version-name>
     <eclipse-site>http://download.eclipse.org/releases/${platform-version-name}</eclipse-site>
     <acceleo-site>http://download.eclipse.org/modeling/m2t/acceleo/updates/releases/3.2</acceleo-site>
+    <eef-site>http://download.eclipse.org/modeling/emft/eef/updates/releases/1.1</eef-site>
     <orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/R20110523182458/repository/</orbit-site>
   </properties>
 
@@ -63,6 +64,11 @@
       <id>acceleo</id>
       <layout>p2</layout>
       <url>${acceleo-site}</url>
+    </repository>
+    <repository>
+      <id>eef</id>
+      <layout>p2</layout>
+      <url>${eef-site}</url>
     </repository>
     <repository>
       <id>orbit</id>
