@@ -127,6 +127,8 @@ public class AcceleoProjectUnzipper extends AbstractHandler {
 								os.close();
 							}
 						}
+					} else {
+						file.mkdir();
 					}
 
 					zipFileStream.closeEntry();
