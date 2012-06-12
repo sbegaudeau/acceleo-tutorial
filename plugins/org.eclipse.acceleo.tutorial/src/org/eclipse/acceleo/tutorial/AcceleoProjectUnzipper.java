@@ -78,7 +78,11 @@ public class AcceleoProjectUnzipper extends AbstractHandler {
 			try {
 				final IProject project = ResourcesPlugin.getWorkspace().getRoot().getProject(projectName);
 				if (project.exists()) {
-					return null;
+					try {
+						project.delete(true, new NullProgressMonitor());
+					} catch (CoreException e) {
+						e.printStackTrace();
+					}
 				}
 				try {
 					project.create(new NullProgressMonitor());
