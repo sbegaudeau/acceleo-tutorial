@@ -8,24 +8,20 @@
    <item title="Install EEF">
       <description>
          You can download EEF from the Eclipse update site of your Eclipse version, for example http://download.eclipse.org/indigo for Eclipse 3.7 Indigo.
-         EEF can be found in the modeling category along with over EMF-based tools.<br .>
+         EEF can be found in the modeling category along with over EMF-based tools.<br />
          To learn more about EEF installation process, have a look at the EEF wiki: http://wiki.eclipse.org/EEF/Installation_Guide
       </description>
    </item>
    <item title="Generate the EEF models">
       <description>
-         Right click on your genmodel and select "EEF" -> "Initialize EEF models". Now open the MANIFEST.MF go to the dependencies tab and add there
-         a dependency to org.eclipse.emf.eef.runtime
+         Right click on your genmodel and select "EEF" -> "Initialize EEF models" and after that select "EEF" -> "Initialize EEF editor models".
+         Now open the MANIFEST.MF of your ".editor" project, go to the dependencies tab and add there a dependency to org.eclipse.emf.eef.runtime
       </description>
    </item>
    <item title="Generate a form-based editor">
       <description>
-         Right click on the "eefgen" model and select generate the edit and editor.
-      </description>
-   </item>
-   <item title="Test the environment">
-      <description>
-         Launch another Eclipse instance to test this new Eclipse based tool.
+         Right click on the "eefgen" model and generate the editor. Launch an new Eclipse runtime (right click on the project and select Run As -> Eclipse Application)
+         In the new Eclipse, create a new model by using the new wizard under the Example EMF wizard category. The EEF editor should open.
       </description>
    </item>
 </cheatsheet>
