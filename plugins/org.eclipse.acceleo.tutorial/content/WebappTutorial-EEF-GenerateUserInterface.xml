@@ -15,7 +15,11 @@
    <item title="Generate the EEF models">
       <description>
          Right click on your genmodel and select "EEF" -> "Initialize EEF models" and after that select "EEF" -> "Initialize EEF editor models".
-         Now open the MANIFEST.MF of your ".editor" project, go to the dependencies tab and add there a dependency to org.eclipse.emf.eef.runtime
+         Now open the MANIFEST.MF of your ".editor" project and your ".edit", go to the dependencies tab and add there a dependency to org.eclipse.emf.eef.runtime
+         and org.eclipse.emf.eef.runtime.extended.<br />
+         Open the webapp.eefgen model and change the location of the generation from org.eclipse.acceleo.tutorial.webapp.model to org.eclipse.acceleo.tutorial.webapp.model.edit.
+         Then launch the generation on webapp.eefgen with the EEF -> generate EEF architecture action and generate the editor with the action EEF -> generate EEF editor on the
+         webapp-editor.eefgen model.
       </description>
    </item>
    <item title="Generate a form-based editor">
